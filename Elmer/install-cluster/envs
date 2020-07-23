@@ -1,0 +1,4 @@
+export LD_LIBRARY_PATH=$(pwd)/lib64:$(pwd)/usr/lib64:$LD_LIBRARY_PATH
+export ELMER_HOME=/home/asp04/usr/
+
+LD_LIBRARY_PATH=/home/asp04/lib64:/home/asp04/usr/lib64:$LD_LIBRARY_PATH /home/asp04/lib64/ld-2.17.so /home/asp04/usr/bin/ElmerSolver case.sif

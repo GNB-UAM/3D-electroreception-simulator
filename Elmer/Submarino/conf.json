@@ -1,0 +1,43 @@
+{
+    "submarino": {                          
+        "radio": 0.155,
+        "altura_cuerpo": 0.147,
+        "baterias": {
+            "radio": 0.015,
+            "longitud": 0.2
+        },
+        "sensor": {
+            "tipo": "ESFERA",
+            "radio": 0.01125,
+            "angulo_separacion": 15,
+            "altura": -0.125,
+            "rotacion": 0
+        },
+        "camara":{
+            "radio": 0.035,
+            "longitud": 0.071
+        },
+        "piscina_dim": {
+            "x": 2,
+            "y": 2,
+            "z": 2
+        },
+        "posicion": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotacion": 0,
+        "mesh": {
+            "min": 0.05,
+            "max": 0.1,
+            "refinamiento_mesh_esferas": 10
+        }
+    },
+
+    
+    "simulacion": {
+        "corriente_sensor": 0.01,
+        "conductividad_agua": 0.041
+    }
+}
